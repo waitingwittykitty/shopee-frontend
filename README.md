@@ -1,46 +1,27 @@
-# Getting Started with Create React App
+# Shopee Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About
+This is a React app for a shopping website. It allows users to browse products, add products to their cart, and checkout.
 
-## Available Scripts
+## Installation
+To install this app, you will need to have Node.js and NPM installed on your machine. Once you have those installed, you can run the following commands:
 
-In the project directory, you can run:
+```
+npm install
+npm start
+```
 
-### `npm start`
+This will create a development server on port 3000. You can then open your browser and navigate to http://localhost:3000 to see the app in action.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Features
+This app includes the following features:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- A list of products that users can browse
+- A shopping cart where users can add products
+- A checkout process where users can purchase products
 
-### `npm test`
+## Usage
+To use this app, simply browse the list of products and add any products that you want to your cart. Once you have added some products to your cart, you can click on the "Checkout" button to proceed to the checkout process. In the checkout process, you will need to enter your shipping and billing information. Once you have entered your information, you can click on the "Purchase" button to complete your purchase.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contributing
+If you would like to contribute to this app, you can do so by forking the repository and submitting a pull request. Please note that all contributions must be made under the MIT license.
